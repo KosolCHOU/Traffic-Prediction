@@ -1,8 +1,7 @@
-streamlit
-pandas
-numpy
-xgboost
-datetime
-matplotlib
-seaborn
-pickle
+streamlit==1.34.0
+pandas==2.2.2
+numpy==1.26.4
+xgboost==2.0.3
+scikit-learn==1.4.2
+matplotlib==3.8.4
+seaborn==0.13.2
