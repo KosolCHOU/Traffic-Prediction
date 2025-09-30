@@ -6,19 +6,7 @@ A comprehensive machine learning project for analyzing and predicting traffic pa
 
 - [Overview](#overview)
 - [Features](#features)
-- [**🎯 Prediction Accuracy Ranking:**
-1. **XGBoost** - Superior capacity (R²: 95.91%)
-2. **Random Forest** - Excellent capacity (R²: 95.47%) 
-3. **GRU** - Excellent capacity (R²: 95.47%)
-4. **LSTM** - Very good capacity (R²: 91.91%)
-5. **Prophet** - Moderate capacity (R²: 65.64%)
-6. **SARIMA** - Statistical baseline capacity
-
-**📊 Error Performance:**
-- **Lowest MAE**: XGBoost (3.38) → Best average error performance
-- **Lowest RMSE**: XGBoost (4.79) → Best overall prediction precision
-- **Tied Excellent Performance**: Random Forest & GRU (MAE: 4.01, RMSE: 5.62, R²: 95.47%)
-- **Highest Variance Explained**: XGBoost (95.91%) → Superior model capacitytaset)
+- [Dataset](#dataset)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -105,7 +93,7 @@ Traffic-Prediction/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/traffic-prediction.git
+   git clone https://github.com/KosolCHOU/traffic-prediction.git
    cd traffic-prediction
    ```
 
@@ -417,13 +405,6 @@ Based on actual evaluation results, the models demonstrate varying capacities:
 
 ### Research Methodology
 
-- **Comprehensive Evaluation**: All 6 models evaluated using consistent metrics (MAE, RMSE, R² Score)
-- **Best Practices**: XGBoost and Random Forest show exceptional capacity for traffic prediction tasks
-- **Deep Learning Insights**: LSTM and GRU demonstrate strong capacity for complex temporal patterns
-- **Statistical Baseline**: Prophet and SARIMA provide interpretable alternatives with varying capacity levels
-
-### Research Methodology
-
 - **Learning-Oriented Approach**: This project represents a comprehensive first exploration into time series analysis, implemented with careful research and best practices
 - **Focus**: Junction 1 selected for detailed modeling (most complete dataset)
 - **Approach**: Systematic comparison of statistical vs. machine learning methods
@@ -467,13 +448,9 @@ We welcome contributions! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **CHOU Kosol** - *Initial work* - [@KosolCHOU](https://github.com/KosolCHOU)
 
 ## 🙏 Acknowledgments
 
@@ -486,9 +463,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions or collaboration opportunities:
 
-- **Email**: your.email@domain.com
-- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- **Project Link**: [https://github.com/yourusername/traffic-prediction](https://github.com/yourusername/traffic-prediction)
+- **Email**: kosolchou@gmail.com
+- **LinkedIn**: [Kosol Chou](https://www.linkedin.com/in/kosol-chou-30430234b/)
+- **Project Link**: [https://github.com/KosolCHOU/Traffic-Prediction](https://github.com/KosolCHOU/Traffic-Prediction)
 
 ---
 
