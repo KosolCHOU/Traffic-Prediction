@@ -1,4 +1,4 @@
-"# 🚦 Traffic Prediction Project
+# 🚦 Traffic Prediction Project
 
 A comprehensive machine learning project for analyzing and predicting traffic patterns at urban junctions using time series data and XGBoost regression models.
 
